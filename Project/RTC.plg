@@ -1,0 +1,368 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\GD3205\firmware test\GD32F1x0_StdPeriph_Lib_V0.1.0\GD32F1x0_StdPeriph_Lib_V0.1.0\Projects\RTC\Project\RTC.uvproj
+Project File Date:  04/01/2014
+
+<h2>Output:</h2>
+Build target 'RTC'
+compiling date.c...
+..\..\..\Libraries\GD32F1x0_StdPeriph_Driver\inc\date.h(8): error:  #5: cannot open source input file "stm32f10x.h": No such file or directory
+compiling gd32f1x0_it.c...
+compiling main.c...
+..\..\..\Libraries\GD32F1x0_StdPeriph_Driver\inc\date.h(8): error:  #5: cannot open source input file "stm32f10x.h": No such file or directory
+compiling core_cm3.c...
+compiling system_gd32f1x0.c...
+compiling DAC.c...
+compiling gd32f1x0_adc.c...
+compiling gd32f1x0_cec.c...
+compiling gd32f1x0_comp.c...
+compiling gd32f1x0_crc.c...
+compiling gd32f1x0_dac.c...
+compiling gd32f1x0_dbgmcu.c...
+compiling gd32f1x0_dma.c...
+compiling gd32f1x0_exti.c...
+compiling gd32f1x0_flash.c...
+compiling gd32f1x0_gpio.c...
+compiling gd32f1x0_i2c.c...
+compiling gd32f1x0_iwdg.c...
+compiling gd32f1x0_misc.c...
+compiling gd32f1x0_pwr.c...
+compiling gd32f1x0_rcc.c...
+compiling gd32f1x0_rtc.c...
+compiling gd32f1x0_spi.c...
+compiling gd32f1x0_syscfg.c...
+compiling gd32f1x0_SysTick.c...
+compiling gd32f1x0_tim.c...
+compiling gd32f1x0_usart.c...
+compiling gd32f1x0_wwdg.c...
+assembling startup_gd32f1x0.s...
+Target not created
+Build target 'RTC'
+compiling date.c...
+..\User\date.c(74): error:  #20: identifier "u32" is undefined
+..\User\date.c(82): error:  #20: identifier "u32" is undefined
+..\User\date.c(89): error:  #20: identifier "u32" is undefined
+..\User\date.c(91): error:  #20: identifier "u32" is undefined
+compiling main.c...
+..\User\main.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\User\main.c(44): error:  #65: expected a ";"
+..\User\main.c(87): warning:  #223-D: function "STM_EVAL_LEDInit" declared implicitly
+..\User\main.c(87): error:  #20: identifier "LED1" is undefined
+..\User\main.c(88): error:  #20: identifier "LED2" is undefined
+..\User\main.c(89): error:  #20: identifier "LED3" is undefined
+..\User\main.c(90): error:  #20: identifier "LED4" is undefined
+..\User\main.c(91): warning:  #223-D: function "STM_EVAL_LEDOff" declared implicitly
+..\User\main.c(108): warning:  #223-D: function "STM_EVAL_COMInit" declared implicitly
+..\User\main.c(108): error:  #20: identifier "COM1" is undefined
+..\User\main.c(110): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c(117): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(117): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(132): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(152): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(155): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(160): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(166): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(170): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(170): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(210): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(216): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(234): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(237): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(243): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(351): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(357): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(383): error:  #20: identifier "WEEK_STR" is undefined
+..\User\main.c(418): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(434): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(456): error:  #20: identifier "EVAL_COM1" is undefined
+Target not created
+Build target 'RTC'
+compiling date.c...
+compiling main.c...
+..\User\main.c(51): warning:  #9-D: nested comment is not allowed
+..\User\main.c(122): warning:  #223-D: function "STM_EVAL_COMInit" declared implicitly
+..\User\main.c(122): error:  #20: identifier "COM1" is undefined
+..\User\main.c(124): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c(124): error:  #20: identifier "LED3" is undefined
+..\User\main.c(131): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(131): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+..\User\main.c(544): error:  #20: identifier "DS1_PIN" is undefined
+..\User\main.c(550): error:  #20: identifier "GPIO_LED2" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(51): warning:  #9-D: nested comment is not allowed
+..\User\main.c(122): warning:  #223-D: function "STM_EVAL_COMInit" declared implicitly
+..\User\main.c(122): error:  #20: identifier "COM1" is undefined
+..\User\main.c(124): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c(124): error:  #20: identifier "LED3" is undefined
+..\User\main.c(131): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(131): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+..\User\main.c(544): error:  #20: identifier "DS1_PIN" is undefined
+..\User\main.c(550): error:  #20: identifier "GPIO_LED2" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(122): warning:  #223-D: function "STM_EVAL_COMInit" declared implicitly
+..\User\main.c(122): error:  #20: identifier "COM1" is undefined
+..\User\main.c(124): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c(124): error:  #20: identifier "LED3" is undefined
+..\User\main.c(131): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(131): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(124): warning:  #223-D: function "STM_EVAL_LEDOn" declared implicitly
+..\User\main.c(124): error:  #20: identifier "LED3" is undefined
+..\User\main.c(131): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(131): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Set JLink Project File to "E:\GD3205\firmware test\GD32F1x0_StdPeriph_Lib_V0.1.0\GD32F1x0_StdPeriph_Lib_V0.1.0\Projects\RTC\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Aug  1 2012 13:40:47
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Set JLink Project File to "E:\GD3205\firmware test\GD32F1x0_StdPeriph_Lib_V0.1.0\GD32F1x0_StdPeriph_Lib_V0.1.0\Projects\RTC\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Aug  1 2012 13:40:47
+Hardware: V8.00
+S/N : 99999994 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p1, Little endian.
+ 
+Target info:
+------------
+Device: GD32F1x0
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(131): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(131): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(131): warning:  #223-D: function "BKP_ReadBackupRegister" declared implicitly
+..\User\main.c(131): error:  #20: identifier "BKP_DR1_DR0" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(146): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(131): error:  #20: identifier "BKP_DR1_DR0" is undefined
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(146): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(146): warning:  #223-D: function "BKP_WriteBackupRegister" declared implicitly
+..\User\main.c(146): error:  #20: identifier "BKP_DR1" is undefined
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(166): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
+Build target 'RTC'
+compiling main.c...
+..\User\main.c(169): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(174): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(180): warning:  #223-D: function "BKP_TamperPinCmd" declared implicitly
+..\User\main.c(184): warning:  #223-D: function "BKP_RTCOutputConfig" declared implicitly
+..\User\main.c(184): error:  #20: identifier "BKP_RTCOutputSource_CalibClock" is undefined
+..\User\main.c(224): error:  #20: identifier "RCC_APB1Periph_BKP" is undefined
+..\User\main.c(230): warning:  #223-D: function "BKP_DeInit" declared implicitly
+..\User\main.c(248): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(251): error:  #20: identifier "RTC_IT_SEC" is undefined
+..\User\main.c(257): warning:  #223-D: function "RTC_SetPrescaler" declared implicitly
+..\User\main.c(365): warning:  #223-D: function "RTC_WaitForLastTask" declared implicitly
+..\User\main.c(371): warning:  #223-D: function "RTC_SetCounter" declared implicitly
+..\User\main.c(432): warning:  #223-D: function "RTC_GetCounter" declared implicitly
+..\User\main.c(448): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(470): error:  #20: identifier "EVAL_COM1" is undefined
+..\User\main.c(544): error:  #20: identifier "GPIO_InitStructure" is undefined
+Target not created
