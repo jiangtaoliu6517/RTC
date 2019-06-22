@@ -69,6 +69,7 @@ void RTC_TimeRegulate(void);
 void RTC_TimeShow(void);
 void RTC_AlarmShow(void);
 uint8_t USART_Scanf(uint32_t value);
+//加一句话，第二次测试git
 
 #ifdef __GNUC__
   /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
